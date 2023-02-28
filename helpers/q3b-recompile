@@ -1,3 +1,5 @@
 #! /bin/bash
 
+cd /helpers
+
 cd ../Q3B && cmake --build build -j4
