@@ -1,0 +1,11 @@
+cudd-3val/
+Q3B/
+
+testing/*
+!testing/both-recompile
+!testing/init
+!testing/cudd-recompile
+!testing/q3b-recompile
+
+tutorial
+build

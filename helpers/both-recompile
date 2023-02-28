@@ -1,0 +1,3 @@
+#! /bin/bash
+
+./cudd-recompile && ./q3b-recompile

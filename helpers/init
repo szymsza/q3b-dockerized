@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd ../cudd-3val && ./configure --enable-silent-rules --enable-obj --enable-shared && make -j4 && make install
+
+cd ../Q3B && cmake -B build -DANTLR_EXECUTABLE=/usr/share/java/antlr-4.11.1-complete.jar
+cd ../Q3B &&  cmake --build build -j4
+cd ../Q3B/build && make test

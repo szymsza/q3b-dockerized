@@ -1,0 +1,3 @@
+#! /bin/bash
+
+cd ../Q3B && cmake --build build -j4
