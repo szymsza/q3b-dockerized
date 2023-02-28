@@ -1,24 +1,3 @@
-# ------------------------------------	OUTSIDE DOCKER			------------------------------------
-
-# INITIALISATION OF LOCAL ALIASES
-# -----------------
-# Execute: fish_add_path ~/Documents/SYNC/www/_docker/aliases-local
-
-# INITIAL BUILD / REBUILD AFTER DOCKEFILE CHANGE
-# ----------------------------------------------
-# docker-compose build q3b
-
-# START CONTAINERS
-# ----------------
-# - docker-compose up -d q3b
-# STOP CONTAINERS
-# ----------------
-# - docker stop q3b
-# OPEN SHELL
-# ----------
-# - docker exec -it q3b bash
-
-
 version: '2'
 services:
   q3b:
