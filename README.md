@@ -23,6 +23,9 @@
 ### Open shell
 `docker exec -it q3b bash`
 
+### Copy executable outside
+`docker cp q3b:/Q3B/build/q3b q3b`
+
 ## Inside Docker shell
 
 ### Recompile various tools
