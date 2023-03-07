@@ -2,6 +2,7 @@
 ## Initisation
 - Clone CUDD-3val into `./cudd-3val`
 - Clone Q3B-pBDD into `./q3b`
+- Get submodules for Q3B `cd q3b && git submodule init && git submodule update`
 - Put your testing benchmarks into `./testing`
 - Initialise Docker container, open shell (see below), and run initial compilation `/helpers/init`
 
